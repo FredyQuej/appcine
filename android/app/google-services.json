@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "47805522790",
+    "project_id": "appcine-11ae2",
+    "storage_bucket": "appcine-11ae2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47805522790:android:4a98315ed121de4ac75ea7",
+        "android_client_info": {
+          "package_name": "com.basedatos.appcine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM-9vurjyxeM3Epqn8-lwxvIsbsCdo2z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
