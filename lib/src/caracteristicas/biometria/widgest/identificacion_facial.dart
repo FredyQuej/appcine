@@ -3,7 +3,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:vector_math/vector_math.dart' as vector;
 
-import 'package:appcine/src/centro/constantes/constantes.dart';
+// 'package:appcine/src/centro/constantes/constantes.dart';
 
 import '../animaciones/animaciones.dart';
 
@@ -106,7 +106,7 @@ class FaceIDPainter extends CustomPainter {
     //* Borders
     final paintBorders = Paint()
       ..style = PaintingStyle.stroke
-      ..color = Color.fromARGB(255, 3, 167, 25)
+      ..color = Color.fromARGB(255, 255, 255, 255)
       ..strokeWidth = strokeWidth
       ..strokeCap = StrokeCap.round;
     final rRect = RRect.fromRectAndRadius(

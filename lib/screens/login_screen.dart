@@ -1,5 +1,6 @@
 import 'package:appcine/screens/home_screen.dart';
 import 'package:appcine/screens/registration_screen.dart';
+import 'package:appcine/src/app.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -164,13 +165,13 @@ class _LoginScreenState extends State<LoginScreen> {
   void signIn(String email, String password) async {
     if (_formKey.currentState!.validate()) {
       try {
-        var _auth;
+        //var _auth;
         await _auth
             .signInWithEmailAndPassword(email: email, password: password)
             .then((uid) => {
                   Fluttertoast.showToast(msg: "Inicio de sesión exitoso"),
                   Navigator.of(context).pushReplacement(
-                      MaterialPageRoute(builder: (context) => HomeScreen())),
+                      MaterialPageRoute(builder: (context) => App())),
                 });
       } on FirebaseAuthException catch (error) {
         switch (error.code) {

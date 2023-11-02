@@ -1,1 +1,1 @@
-export 'identificacion_facial.dart';  
+export 'identificacion_facial.dart';

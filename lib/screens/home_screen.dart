@@ -1,4 +1,6 @@
 import 'package:appcine/model/user_model.dart';
+//import 'package:appcine/src/caracteristicas/peliculas/widgets/indicador_punto.dart';
+//import 'package:appcine/src/caracteristicas/peliculas/widgets/ver_peliculas.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
